@@ -124,13 +124,13 @@
     margin-bottom: 16px;
 }
 
-.home-content .heading-box .heading-text {
+.home-content .heading-box .home-heading {
     font-weight: 700;
     font-size: 72px;
     color: #ffffff;
 }
 
-.home-content .heading-box .heading-text .text-color {
+.home-content .heading-box .home-heading .text-color {
     color: #469165;
     text-transform: capitalize;
 }
@@ -140,7 +140,7 @@
     margin-bottom: 32px;
 }
 
-.home-content .para-box .para-text {
+.home-content .para-box .home-para {
     font-weight: 400;
     font-size: 18px;
     color: #ffffff;
@@ -151,3 +151,80 @@
     display: flex;
     gap: 16px;
 }
+
+/* note section -------------------------------- */
+#note-section {
+    width: 100%;
+}
+
+.note-content {
+    padding-top: 75px;
+}
+
+.note-content .heading-content {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.note-content .heading-content .note-heading {
+    font-weight: 700;
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.note-content .heading-content .note-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+}
+
+.note-content .note-card-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.note-content .note-card-content .note-card {
+    width: 322px;
+    height: 300px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+}
+
+.note-content .note-card-content .note-card .note-card-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.note-content .note-card-content .note-card .note-card-box .icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.note-content .note-card-content .note-card .note-card-box .text-box .card-text {
+    font-weight: 600;
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.note-content .note-card-content .note-card .note-card-box .text-box .card-text-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+}
+
+/* solution section ---------------------------- */
