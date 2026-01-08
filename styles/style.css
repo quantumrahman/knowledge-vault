@@ -228,3 +228,53 @@
 }
 
 /* solution section ---------------------------- */
+#solution-section {
+    width: 100%;
+}
+
+.solution-content {
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution-content .right-content {
+    width: 600px;
+    height: 600px;
+}
+
+.solution-content .left-content .small-heading-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #469165;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.solution-content .left-content .solution-heading {
+    font-weight: 700;
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.solution-content .left-content .solution-para {
+    width: 520px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.solution-content .left-content .todo-box .todo-text {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+/* subscribe section --------------------------- */
