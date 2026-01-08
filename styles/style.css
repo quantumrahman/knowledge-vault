@@ -3,5 +3,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
     font-family: 'Inter', sans-serif;
+}
+
+/* ----------------------------------------------- common css style */
+.container {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: #30B868;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------- header */
+.header {
+    width: 100%;
+    padding: 16px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content .logo-box {
+    width: 140px;
+}
+
+.header-content .logo-box .logo {
+    width: 100%;
+}
+
+.header-content .nav-content .navbar .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header-content .nav-content .navbar .nav-items .nav-list {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header-content .nav-content .navbar .nav-items .nav-list .nav-link {
+    color: #000000;
 }
