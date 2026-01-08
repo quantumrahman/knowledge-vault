@@ -15,11 +15,17 @@
     margin: 0 auto;
 }
 
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .btn-primary {
-    border: none;
+    border: 1px solid #469165;
     border-radius: 4px;
     padding: 12px 16px;
-    background-color: #30B868;
+    background-color: #469165;
     font-weight: 600;
     font-size: 16px;
     color: #ffffff;
@@ -70,4 +76,78 @@
 
 .header-content .nav-content .navbar .nav-items .nav-list .nav-link {
     color: #000000;
+}
+
+/* ------------------------------------------------------- main */
+/* home section ---------------------------------- */
+#home-section {
+    width: 100%;
+}
+
+.home-container {
+    width: 100%;
+    min-height: 675px;
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 115px;
+}
+
+.home-content {
+    max-width: 770px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-content .tag-box {
+    padding: 8px 12px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.home-content .tag-box .para-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #469165;
+}
+
+.home-content .heading-box {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.home-content .heading-box .heading-text {
+    font-weight: 700;
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.home-content .heading-box .heading-text .text-color {
+    color: #469165;
+    text-transform: capitalize;
+}
+
+.home-content .para-box {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.home-content .para-box .para-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 32px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    gap: 16px;
 }
