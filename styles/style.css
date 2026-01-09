@@ -278,3 +278,37 @@
 }
 
 /* subscribe section --------------------------- */
+#subscribe-section {
+    width: 100%;
+}
+
+.subscribe-content {
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subscribe-content .subscribe-heading {
+    font-weight: 700;
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.subscribe-content .subscribe-para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.subscribe-content .subscribe-btn-box {
+    margin-bottom: 16px;
+}
+
+/* footer section ------------------------------ */
