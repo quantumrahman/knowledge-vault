@@ -21,6 +21,10 @@
     gap: 10px;
 }
 
+.btn-shadow {
+    box-shadow: 0 10px 20px 0 rgb(0, 0, 0, 0.15);
+}
+
 .btn-primary {
     border: 1px solid #469165;
     border-radius: 4px;
@@ -30,6 +34,7 @@
     font-size: 16px;
     color: #ffffff;
     cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
 }
 
 .btn-secondary {
@@ -41,6 +46,16 @@
     font-size: 16px;
     color: #ffffff;
     cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #397451;
+}
+
+.btn-secondary:hover {
+    border: 1px solid #397451;
+    background-color: #397451;
 }
 
 /* -------------------------------------------------------- header */
@@ -280,6 +295,7 @@
 /* subscribe section --------------------------- */
 #subscribe-section {
     width: 100%;
+    padding-bottom: 120px;
 }
 
 .subscribe-content {
@@ -304,11 +320,45 @@
     font-weight: 400;
     font-size: 16px;
     color: #627382;
-    margin-bottom: 24px;
 }
 
 .subscribe-content .subscribe-btn-box {
-    margin-bottom: 16px;
+    margin: 24px 0 16px;
 }
 
 /* footer section ------------------------------ */
+.footer-content {
+    width: 100%;
+    background-color: #001931;
+    padding: 120px 0 30px;
+}
+
+.footer-content .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer-content .footer-container .right-content .footer-para {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.footer-content .footer-container .right-content .footer-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-content .line-border {
+    border-top: 1px solid #e5e7eb34;
+    margin-bottom: 30px;
+}
+
+.footer-content .footer-copyright-tag {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
